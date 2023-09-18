@@ -4,6 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/app_background">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/buttons_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp"
+                android:text="@string/ac"
+                android:textSize="30sp"
+                android:id="@+id/button_ac"
+                android:layout_margin="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
