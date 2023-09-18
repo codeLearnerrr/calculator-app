@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="app_background">#1C1C1C</color>
     <color name="gray_button">#D4D4D2</color>
+    <color name="button_orange">#FF9500</color>
 </resources>

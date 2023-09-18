@@ -28,6 +28,38 @@
                 android:textSize="30sp"
                 android:id="@+id/button_ac"
                 android:layout_margin="12dp"/>
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp"
+                android:text="@string/bracket_open"
+                android:textSize="30sp"
+                android:id="@+id/button_bracket_open"
+                android:layout_margin="12dp"/>
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp"
+                android:text="@string/bracket_close"
+                android:textSize="30sp"
+                android:id="@+id/button_bracket_close"
+                android:layout_margin="12dp"/>
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                app:backgroundTint="@color/button_orange"
+                app:cornerRadius="36dp"
+                android:text="@string/divider"
+                android:textSize="30sp"
+                android:id="@+id/button_divider"
+                android:layout_margin="12dp"/>
+
         </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>
