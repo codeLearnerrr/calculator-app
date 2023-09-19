@@ -113,6 +113,56 @@
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_4"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:text="@string/button_4"
+                android:textSize="30sp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_5"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:text="@string/button_5"
+                android:textSize="30sp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_6"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:text="@string/button_6"
+                android:textSize="30sp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_minus"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:text="@string/button_minus"
+                android:textSize="30sp"
+                app:backgroundTint="@color/button_orange"
+                app:cornerRadius="36dp" />
+
+        </LinearLayout>
 
     </LinearLayout>
 </RelativeLayout>
