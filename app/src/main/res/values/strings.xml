@@ -4,5 +4,9 @@
     <string name="bracket_open">(</string>
     <string name="bracket_close">)</string>
     <string name="divider">/</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_x">X</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
