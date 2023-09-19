@@ -23,11 +23,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         calculator_result = findViewById(R.id.calculator_result);
         calculator_equation = findViewById(R.id.calculator_equation);
 
+        assignID(button_ac, R.id.button_ac);
+        assignID(button_bracket_open, R.id.button_bracket_open);
+        assignID(button_bracket_close, R.id.button_bracket_close);
+        assignID(button_divider, R.id.button_divider);
+        assignID(button_multiplier, R.id.button_multiplier);
+        assignID(button_minus, R.id.button_minus);
+        assignID(button_plus, R.id.button_plus);
+        assignID(button_equal, R.id.button_equal);
+        assignID(button_comma, R.id.button_comma);
+        assignID(button_9, R.id.button_9);
+        assignID(button_8, R.id.button_8);
+        assignID(button_7, R.id.button_7);
+        assignID(button_6, R.id.button_6);
+        assignID(button_5, R.id.button_5);
+        assignID(button_4, R.id.button_4);
+        assignID(button_3, R.id.button_3);
+        assignID(button_2, R.id.button_2);
+        assignID(button_1, R.id.button_1);
+        assignID(button_0, R.id.button_0);
+
     }
 
-    void assignID(MaterialButton button, int id){
-        button = findViewById(id);
-        button.setOnClickListener(this);
+    void assignID(MaterialButton btn, int id) {
+        btn = findViewById(id);
+        btn.setOnClickListener(this);
     }
 
     @Override
