@@ -16,5 +16,8 @@
     <string name="button_2">2</string>
     <string name="button_3">3</string>
     <string name="button_plus">+</string>
+    <string name="button_zero">0</string>
+    <string name="button_comma">,</string>
+    <string name="button_equal">=</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

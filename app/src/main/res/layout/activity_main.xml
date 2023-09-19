@@ -213,6 +213,49 @@
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_0"
+
+                android:layout_width="170dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:paddingStart="28dp"
+                android:paddingEnd="28dp"
+                android:text="@string/button_zero"
+                android:textAlignment="textStart"
+                android:textSize="30sp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_comma"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:text="@string/button_comma"
+                android:textSize="30sp"
+                app:backgroundTint="@color/gray_button"
+                app:cornerRadius="36dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_equal"
+                style="@style/Widget.Design.FloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:text="@string/button_equal"
+                android:textSize="30sp"
+                app:backgroundTint="@color/button_orange"
+                app:cornerRadius="36dp" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
 </RelativeLayout>
