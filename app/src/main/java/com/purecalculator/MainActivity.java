@@ -1,4 +1,4 @@
-package com.calculator;
+package com.purecalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 

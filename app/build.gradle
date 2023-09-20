@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    namespace 'com.calculator'
+    namespace 'com.purecalculator'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.calculator"
+        applicationId "com.purecalculator"
         minSdk 21
         targetSdk 33
-        versionCode 1
+        versionCode 5
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
