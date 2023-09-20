@@ -52,6 +52,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        MaterialButton button = (MaterialButton) view;
+        String buttonText = button.getText().toString();
+        String dataToCalculate = calculator_result.getText().toString();
 
+        if(buttonText.equals("AC")){
+            calculator_result.setText("0");
+            calculator_equation.setText("");
+
+            return;
+        }
+
+        if(buttonText.equals("=")){
+            calculator_result.setText(calculator_equation.getText());
+
+            return;
+        }
+
+        if(buttonText.equals("C")){
+            dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length() -1);
+        }else{
+            dataToCalculate = dataToCalculate+buttonText;
+        }
+
+        calculator_result.setText(dataToCalculate);
     }
 }
