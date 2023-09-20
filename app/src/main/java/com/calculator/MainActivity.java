@@ -14,16 +14,12 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
     TextView calculator_equation, calculator_result;
-    MaterialButton button_ac, button_bracket_open, button_bracket_close, button_divider, button_multiplier, button_minus, button_plus, button_equal, button_comma;
-    MaterialButton button_9, button_8, button_7, button_6, button_5, button_4, button_3, button_2, button_1, button_0;
-
     DecimalFormatSymbols decimalFormatSymbols = DecimalFormatSymbols.getInstance();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +48,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         assignID(R.id.button_1);
         assignID(R.id.button_0);
 
-
         decimalFormatSymbols.setDecimalSeparator('.');
     }
 
@@ -65,8 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         MaterialButton button = (MaterialButton) view;
         String buttonText = button.getText().toString();
-        String dataToCalculate = calculator_result.getText().toString();
-
 
         if (buttonText.equals("AC")) {
             calculator_result.setText("0");
@@ -90,15 +83,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String toCalculate = calculator_equation.getText().toString() + buttonText;
         calculator_equation.setText(toCalculate);
-//        if (buttonText.equals("C")) {
-//            dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length() - 1);
-//        } else {
-//            dataToCalculate = dataToCalculate + buttonText;
-//        }
-
-//
-
-
 
     }
 
