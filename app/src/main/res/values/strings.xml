@@ -7,7 +7,7 @@
     <string name="button_7">7</string>
     <string name="button_8">8</string>
     <string name="button_9">9</string>
-    <string name="button_x">x</string>
+    <string name="button_x">*</string>
     <string name="button_4">4</string>
     <string name="button_5">5</string>
     <string name="button_6">6</string>
@@ -17,7 +17,7 @@
     <string name="button_3">3</string>
     <string name="button_plus">+</string>
     <string name="button_zero">0</string>
-    <string name="button_comma">,</string>
+    <string name="button_comma">.</string>
     <string name="button_equal">=</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
